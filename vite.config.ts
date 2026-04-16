@@ -1,8 +1,8 @@
 import react from "@vitejs/plugin-react";
-/// <reference types="@batijs/core/types" />
-
 import vike from "vike/plugin";
 import { defineConfig } from "vite";
+
+/// <reference types="@batijs/core/types" />
 
 export default defineConfig({
   plugins: [vike(), react()],
