@@ -6,8 +6,8 @@
 2. Copy THIS repository URL (https://github.com/mrdsx/react-vike-vercel) to new project page on Vercel.
 ![Vercel Dashboard](./assets/example.png)
 
-3. `Application preset` must be `Vite`. (Vercel should automatically set Vite; just make sure preset is chosen correct)
-4. Set `Build and Output Settings` > `Output Directory` to `dist/client`
-5. Click `Deploy`
+3. `Application preset` must be `Vite` (Vercel should automatically set Vite; just make sure preset is correct).
+4. Set `Build and Output Settings` > `Output Directory` to `dist/client`.
+5. Click `Deploy`.
 
-After performing such steps you should see web site with home and about pages.
+After performing such steps you should see web site with home page and about page.
