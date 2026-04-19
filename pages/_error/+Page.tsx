@@ -2,6 +2,7 @@ import { usePageContext } from "vike-react/usePageContext";
 
 export default function Page() {
   const { is404 } = usePageContext();
+
   if (is404) {
     return (
       <>
@@ -10,6 +11,7 @@ export default function Page() {
       </>
     );
   }
+
   return (
     <>
       <h1>Internal Error</h1>
